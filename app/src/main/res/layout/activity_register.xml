@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/logoRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/spacex"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/usernameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name.."
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/logoRegister">
+    </EditText>
+
+    <EditText
+        android:id="@+id/userMailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Mail.."
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/usernameRegister"
+        android:inputType="textEmailAddress">
+    </EditText>
+
+    <EditText
+        android:id="@+id/userPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Password.."
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:layout_below="@+id/userMailRegister">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userPasswordRegister"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/green"
+        android:text="Register Now"
+        android:textStyle="bold"
+        android:textSize="18dp">
+
+    </Button>
+</RelativeLayout>

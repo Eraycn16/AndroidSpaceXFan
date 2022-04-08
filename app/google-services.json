@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "479544602475",
+    "project_id": "spacexfan-3a30f",
+    "storage_bucket": "spacexfan-3a30f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479544602475:android:930472842d863db196662e",
+        "android_client_info": {
+          "package_name": "com.example.spacexfan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479544602475-f3vabqm432fg8u2204nk7d78sh84gejp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAliCnIE7F36Y3Ubuq0O4IJeVPxmOfX1b4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479544602475-f3vabqm432fg8u2204nk7d78sh84gejp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

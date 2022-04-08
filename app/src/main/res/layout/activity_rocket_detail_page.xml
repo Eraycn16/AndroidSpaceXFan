@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RocketDetailPage"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+        </androidx.viewpager2.widget.ViewPager2>
+
+        <TextView
+            android:id="@+id/rocketName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAME"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_below="@id/viewPager"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_marginTop="25dp"
+            android:padding="5dp">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/btnDetailFav"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/fav_empty"
+            android:layout_below="@id/viewPager"
+            android:layout_toRightOf="@id/rocketName"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="50dp"
+            android:background="@android:color/transparent"
+            android:foreground="?selectableItemBackgroundBorderless"
+            >
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/rocketFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Flight: "
+            android:layout_below="@id/rocketName"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:padding="5dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/rocketCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Country: "
+            android:layout_below="@id/rocketFF"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/rocketSuccess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Success Rate: "
+            android:layout_below="@id/rocketCountry"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/rocketDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description: "
+            android:layout_below="@id/rocketSuccess"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/rocketHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Height: "
+            android:layout_below="@id/rocketDescription"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/rocketWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weight: "
+            android:layout_below="@id/rocketHeight"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp">
+        </TextView>
+
+</RelativeLayout>
+</ScrollView>
